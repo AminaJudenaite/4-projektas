@@ -1,7 +1,7 @@
 # Projektas Elementų stilizacija
 
 Mokomasis projektas, sukurtas naudojant HTML ir CSS.
-Nuoroda į projektą: [Projektas "Forma"] (https://github.com/AminaJudenaite/4-projektas)
+Nuoroda į projektą: [Projektas "Puslapio elementų stilizacija"] (https://github.com/AminaJudenaite/4-projektas)
 
 ## Naudotos technologijos
 * HTML

@@ -1,1 +1,146 @@
+* {
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+body {
+    
+    line-height: 2;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #f39120;
+    font-size: 50px;
+}
+
+header nav ul {
+    background-color: #555555;
+    padding: 10px; 
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* 3. Pagrindinis turinys (Main/Articles) */
+main {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+article {
+    flex: 45%;
+    margin-bottom: 10px;
+}
+
+article figure {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+}
+
+article img {
+    display: block;
+    width: 100%;
+}
+
+article figcaption {
+    font-size: 12px;
+    font-style: italic;
+    color: #f39120;
+    text-align: right;
+}
+
+article h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+article p {
+    text-indent: 70px;
+    font-size: 20px;
+   text-align: justify;
+}
+
+article p span {
+    color: #f39120;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f39120;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+aside {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+aside h4 {
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    margin-bottom: 10px;
+    background-color: #555555;
+    padding: 10px;
+}
+
+aside nav ul {
+    list-style: none;
+}
+
+aside nav li {
+    display: inline-block;
+
+}
+
+aside nav a {
+    color: #f39120;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p span {
+    font-weight: bold;
+}
